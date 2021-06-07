@@ -2,7 +2,10 @@ import React from 'react';
 
 class HornedBeasts extends React.Component {
 
+
+    
     render() {
+        console.log(this.props);
         // const arr = [{
         //     "image_url": "http://3.bp.blogspot.com/_DBYF1AdFaHw/TE-f0cDQ24I/AAAAAAAACZg/l-FdTZ6M7z8/s1600/Unicorn_and_Narwhal_by_dinglehopper.jpg",
         //     "title": "UniWhal",
@@ -29,9 +32,9 @@ class HornedBeasts extends React.Component {
 
         return (
             <div>
-                <h2></h2>
-                <img src="" alt="HornedBeast" title="" />
-                <p></p>
+                <h2>{this.props.title}</h2>
+                <img src={this.props.image_url} alt="HornedBeast" title={this.props.title} />
+                <p>{this.props.description}</p>
             </div>
         )
     }
