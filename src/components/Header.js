@@ -1,5 +1,4 @@
 import React from 'react';
-import List from './List'
 
 class Header extends React.Component {
 
