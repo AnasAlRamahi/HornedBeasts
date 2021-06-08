@@ -8,7 +8,8 @@ class Main extends React.Component {
     render(){
         
         return(
-                
+            
+
             Data.map(
                 value => <HornedBeasts key={value.title} title={value.title} image_url={value.image_url} description={value.description} />
             ) 
