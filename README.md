@@ -9,9 +9,9 @@ Number and name of feature: **Feature #1: Display images**
 
 Estimate of time needed to complete: **30 mins**
 
-Start time: **3:20**
+Start time: **3: 20pm**
 
-Finish time: **3:45**
+Finish time: **3: 45pm**
 
 Actual time needed to complete: **25 mins**
 
@@ -20,9 +20,9 @@ Number and name of feature: **Feature #2: Allow users to vote for their favorite
 
 Estimate of time needed to complete: **30 mins**
 
-Start time: **3:47**
+Start time: **3:47 pm**
 
-Finish time: **3:57**
+Finish time: **3:57 pm**
 
 Actual time needed to complete: **10 mins**
 
@@ -30,25 +30,25 @@ Actual time needed to complete: **10 mins**
 ### We didn't take the bootstrap just yet, when we learn it, I will make sure to update the README.md again...
 Number and name of feature: **Feature #3: Bootstrap**
 
-Estimate of time needed to complete: TBA
+Estimate of time needed to complete: **30 mins**
 
-Start time: TBA
+Start time: **2:38 pm**
 
-Finish time: TBA
+Finish time: **3:33 pm**
 
-Actual time needed to complete: TBA
+Actual time needed to complete: **55 mins**
 
 
 ## Lab03 feature time estimation
 ### Feature#1:
 Number and name of feature: **Feature #1: Display a modal**
 
-Estimate of time needed to complete: **30 mins**
+Estimate of time needed to complete: **45 mins**
 
-Start time: **3:20**
+Start time: **12:42 am**
 
-Finish time: **3:45**
+Finish time: **3:9 am**
 
-Actual time needed to complete: **25 mins**
+Actual time needed to complete: **2 hours 27 mins**
 
 
