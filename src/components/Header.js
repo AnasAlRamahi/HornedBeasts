@@ -1,12 +1,22 @@
 import React from 'react';
-import List from './List'
+import Navbar from 'react-bootstrap/Navbar';
+import Container from 'react-bootstrap/Container';
 
 class Header extends React.Component {
 
     render(){
         return(
             <div>
-                <h1>Horn Gallary</h1>
+                <>
+                    <Navbar bg="dark" variant="dark">
+                        <Container style={{fontWeight: "bold"}}>
+                        <Navbar.Brand href="#home">
+                        Horn Gallary
+                        </Navbar.Brand>
+                        </Container>
+                    </Navbar>
+                    <br />
+                </>
             </div>
         )
     }
