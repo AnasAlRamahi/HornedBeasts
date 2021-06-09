@@ -6,7 +6,7 @@ import Header from './components/Header';
 import Main from './components/Main';
 import Footer from './components/Footer';
 import SelectedBeast from './components/SelectedBeast';
-import Button from 'react-bootstrap/Button';
+import SelectForm from './components/SelectForm';
 
 
 class App extends React.Component {
@@ -16,7 +16,9 @@ class App extends React.Component {
         modalShow : false,
         modalTitle : '',
         modalImg : '',
-        modalDescription : '' 
+        modalDescription : '',
+        numberOfHorns : 0,
+        selectedBeastsShow : false
     }
   }
 
@@ -34,15 +36,33 @@ class App extends React.Component {
     })
   }
 
+  setNumberOfHorns = (e) => {
+    e.preventDefault();
+    this.setState({
+      numberOfHorns : e.target.value
+    })
+    this.setSelectedBeasesShow();
+  }
+
+  setSelectedBeasesShow = () => {
+    this.setState({
+      selectedBeastsShow: true
+    })
+  }
+
   render(){
+    console.log(this.state.numberOfHorns);
     return (
       <div>
         <Header />
+        <SelectForm setNumberOfHorns={this.setNumberOfHorns}  />
         <Main show={this.state.modalShow} 
         onHide={() => this.setModalShow(false)}
         setModalShow={() => this.setModalShow(true)}
         DataMain={Data}
         setModalContent={this.setModalContent}
+        numberOfHorns={this.state.numberOfHorns}
+        selectedBeastsShow={this.state.selectedBeastsShow}
          />
         <>
         <SelectedBeast show={this.state.modalShow} 
